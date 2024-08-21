@@ -1,0 +1,136 @@
+.contact_sec .video_img_container .sec_title_container {}
+
+.contact_sec {
+    padding: 100px 0px;
+    padding-bottom: 400px;
+
+}
+
+.contact_sec .video_img_container .sec_title_container .sec_title {
+    max-width: 340px;
+    text-align: center;
+}
+
+.map_form_container {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+
+.map {
+    border-radius: 10px;
+}
+
+.map_form_container .info_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 83%;
+    gap: 108px;
+}
+
+.map_form_container .info_card {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 12px #dbd6d6;
+    border-radius: 10px;
+    gap: 30px;
+    height: 100px;
+    width: 250px;
+
+
+}
+
+
+.map_form_container .info_card img {
+    width: 40px !important;
+}
+
+.map_form_container .info_card h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.map_form_container .info_card p {
+    color: #8e8686;
+    font-size: 14px;
+    margin: 0px;
+}
+
+@media screen and (max-width:1250px) {
+
+
+    .map_form_container {
+        flex-direction: column;
+
+    }
+
+    .map_form_container .message_form {
+        margin: 0 auto;
+    }
+
+    .map_form_container {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* .map_form_container .info_card {
+        display: flex;
+        flex-direction: column;
+    } */
+    .map_form_container .info_card_container {
+
+        top: 110%;
+    }
+
+    .footer {
+        margin-top: 900px !important;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .map_form_container .map {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    /* .map_form_container .message_form {
+        width: 70vw !important;
+    } */
+
+    .map_form_container .info_card_container {
+        margin: 0 auto;
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 50px;
+    }
+
+    .footer {
+        margin-top: 1000px !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .map_form_container .message_form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .map_form_container .message_form input,
+    .map_form_container .message_form textarea {
+        width: 100%;
+    }
+
+
+}

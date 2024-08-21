@@ -1,0 +1,8 @@
+.property_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+    gap: 50px;
+}

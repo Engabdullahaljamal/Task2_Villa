@@ -1,0 +1,29 @@
+.details_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 10px;
+    border-bottom: 1px solid #cdcdcd;
+    gap: 15px;
+}
+
+.details_box img {
+
+    width: 60px;
+    padding: 9px;
+}
+
+.details_box h3 {
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.details_box p {
+    color: #a4a1a1;
+    font-size: 14px;
+}
+
+.details_box :first-child p {
+    margin-left: 8px;
+}

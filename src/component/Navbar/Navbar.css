@@ -1,0 +1,238 @@
+.navbar_one,
+.navbar_two {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-bottom: 1px solid #cdcdcd;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_one .left_part,
+.navbar_one .right_part,
+.navbar_one .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a4a1a1;
+
+}
+
+.navbar_one .left_part {
+    gap: 20px;
+}
+
+.navbar_one .right_part {
+    gap: 10px;
+}
+
+.navbar_one .right_part a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cdcdcd;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.navbar_two a:hover {
+    color: #f35524 !important;
+}
+
+.navbar_one .flex {
+    gap: 4px;
+}
+
+.navbar_one .flex p {
+    margin: 0px;
+}
+
+.navbar_one .flex svg {
+    color: #f35524;
+}
+
+
+
+.navbar_two {
+    border: none;
+    height: 80px;
+    color: #1e1e1e;
+    flex-wrap: nowrap;
+}
+
+.navbar_two h2,
+.container-fluid h2 {
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: #1e1e1e;
+}
+
+.navbar_two .flex {
+    gap: 35px;
+}
+
+.navbar_two .flex a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar_two .flex button,
+.sch_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    background-color: #1e1e1e;
+    padding: 8px 20px !important;
+    padding-left: 8px !important;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: max-content !important;
+
+
+
+}
+
+.navbar_two .flex button div,
+.nav-item.but button div,
+.but button div {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f35524;
+    font-size: 15px;
+}
+
+/* --------------------------------- */
+.navbar {
+    display: none;
+    padding: 12px 20px;
+
+}
+
+.navbar h2 {
+    padding-top: 8px;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: none;
+    border: none !important;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+.navbar .nav-item .flex {
+    margin-top: 15px;
+}
+
+.navbar .nav-item .flex p {
+    margin: 0px;
+    color: #a4a1a1;
+}
+
+.navbar .nav-item .flex svg {
+    color: #f35524;
+    margin-right: 4px;
+}
+
+.navbar .nav-item.right_part .flex a svg {
+    color: white;
+
+}
+
+.navbar .nav-item.right_part .flex {
+    gap: 15px;
+
+}
+
+
+#navbarSupportedContent .nav-item a {
+    color: #1e1e1e !important;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f0e9e9;
+}
+
+.nav-item.but {
+    text-align: center;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.nav-item.but button {
+    padding: 5px 10px;
+    padding-left: 5px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .nav-item.right_part .flex a {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: #cdcdcd;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 14px !important;
+    padding-left: 4px;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:950px) {
+    .navbar {
+        display: block !important;
+    }
+
+    .navbar_one,
+    .navbar_two {
+        display: none;
+    }
+
+
+}
