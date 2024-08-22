@@ -60,6 +60,10 @@
 
 }
 
+.house_details div {
+    text-align: start;
+}
+
 .house_details span {
     color: #1e1e1e;
     font-weight: 700;
