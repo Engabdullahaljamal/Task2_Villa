@@ -6,7 +6,7 @@ import email_icon from './../../assets/images/email-icon.png'
 
 function ContactSec() {
     return (
-        <div className='contact_sec'>
+        <div className='contact_sec' id="Contact_Us">
             <div className='video_img_container'>
                 <div className='sec_title_container'>
                     <p className='orange_title'> | CONTACT US</p>

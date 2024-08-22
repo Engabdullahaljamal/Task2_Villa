@@ -2,7 +2,7 @@ import './MessageForm.css'
 
 function MessageForm() {
     return (
-        <div className='message_form'>
+        <form className='message_form'>
             <div>
                 <label htmlFor="full_name">Full Name</label>
                 <input type="text" name="" id="full_name" placeholder='Your Name' />
@@ -20,7 +20,7 @@ function MessageForm() {
                 <textarea type="text" name="" id="message" placeholder='Your Message' />
             </div>
             <button>Send Message</button>
-        </div>
+        </form>
     )
 }
 

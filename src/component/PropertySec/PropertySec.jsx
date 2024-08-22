@@ -61,7 +61,7 @@ function PropertySec() {
             bedrooms: '4',
             area: '180m2',
             parking: '2 cars',
-            Bathrooms: '4',
+            bathrooms: '4',
             floor: '38th',
         },
         {
@@ -77,12 +77,18 @@ function PropertySec() {
         },
     ]
     return (
-        <div className='property_sec'>
-            {
-                house_details.map((h) => {
-                    return <PropertyCard house_details={h} />
-                })
-            }
+        <div className='property_sec_container' id="Property">
+            <div className='sec_title_container'>
+                <p className='orange_title'>| Properties</p>
+                <h2 className='sec_title'>We Provide The Best Property You Like </h2>
+            </div>
+            <div className='property_sec'>
+                {
+                    house_details.map((h) => {
+                        return <PropertyCard house_details={h} />
+                    })
+                }
+            </div>
         </div>
     )
 }

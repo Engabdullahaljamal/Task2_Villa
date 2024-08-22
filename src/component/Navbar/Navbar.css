@@ -227,6 +227,13 @@
 @media screen and (max-width:950px) {
     .navbar {
         display: block !important;
+        position: fixed;
+        width: 100vw;
+        z-index: 100;
+    }
+
+    #navbarSupportedContent {
+        z-index: 10;
     }
 
     .navbar_one,
@@ -234,5 +241,8 @@
         display: none;
     }
 
+    .carousel {
+        padding-top: 73.5px;
+    }
 
 }

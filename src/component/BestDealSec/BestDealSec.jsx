@@ -3,7 +3,7 @@ import best_deal_img from './../../assets/images/property-05.jpg'
 import { FaCalendar } from "react-icons/fa";
 function BestDealSec() {
     return (
-        <div className='best_deal_sec'>
+        <div className='best_deal_sec' id="Property_Details">
             <div className='best_title_container'>
                 <div>
                     <p className='orange_title'>| BEST DEAL</p>

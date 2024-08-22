@@ -7,6 +7,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaCalendar } from "react-icons/fa";
 function Navbar() {
+    const none = () => {
+        const nav_bar_down_ul = document.querySelector('#navbarSupportedContent')
+        nav_bar_down_ul.classList.remove('show');
+    }
+
+
     return (
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,14 +28,14 @@ function Navbar() {
                                 <a className="nav-link active text-white" aria-current="page" href="#" onClick={() => { none() }}>Home</a>
                             </li>
                             <li className="nav-item" >
-                                <a className="nav-link text-white" href="#courses" onClick={() => { none() }}>Property</a>
+                                <a className="nav-link text-white" href="#Property" onClick={() => { none() }}>Property</a>
                             </li>
                             <li className="nav-item" >
-                                <a className="nav-link text-white" href="#courses" onClick={() => { none() }}>Property Details</a>
+                                <a className="nav-link text-white" href="#Property_Details" onClick={() => { none() }}>Property Details</a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link  text-white" aria-disabled="true" href='#question' onClick={() => { none() }}>Contact US</a>
+                                <a className="nav-link  text-white" aria-disabled="true" href='Contact_Us' onClick={() => { none() }}>Contact US</a>
                             </li>
 
                             <li className="nav-item but" onClick={() => { none() }}>
@@ -73,19 +79,19 @@ function Navbar() {
                     </div>
                 </div>
                 <div className='right_part'>
-                    <a href=""><FaFacebook /></a>
-                    <a href=""><FaTwitter /></a>
-                    <a href=""><FaLinkedinIn /></a>
-                    <a href=""><FaInstagram /></a>
+                    <a href="https://www.facebook.com"><FaFacebook /></a>
+                    <a href="https://x.com"><FaTwitter /></a>
+                    <a href="https://www.linkedin.com"><FaLinkedinIn /></a>
+                    <a href="https://www.instagram.com"><FaInstagram /></a>
                 </div>
             </div>
             <div className='navbar_two'>
                 <h2>VILLA</h2>
                 <div className='flex'>
-                    <a href="">Home</a>
-                    <a href="">Property</a>
-                    <a href="">Property Details</a>
-                    <a href="">Contact US</a>
+                    <a href="#">Home</a>
+                    <a href="#Property">Property</a>
+                    <a href="#Property_Details">Property Details</a>
+                    <a href="#Contact_Us">Contact US</a>
                     <button> <div><FaCalendar /></div>  Schedule a visit</button>
                 </div>
             </div>
