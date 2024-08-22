@@ -35,7 +35,7 @@ function Navbar() {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link  text-white" aria-disabled="true" href='Contact_Us' onClick={() => { none() }}>Contact US</a>
+                                <a className="nav-link  text-white" aria-disabled="true" href='#Contact_Us' onClick={() => { none() }}>Contact US</a>
                             </li>
 
                             <li className="nav-item but" onClick={() => { none() }}>
@@ -55,10 +55,10 @@ function Navbar() {
                             </li>
                             <li className="nav-item right_part">
                                 <div className='flex'>
-                                    <a href=""><FaFacebook /></a>
-                                    <a href=""><FaTwitter /></a>
-                                    <a href=""><FaLinkedinIn /></a>
-                                    <a href=""><FaInstagram /></a>
+                                    <a href="https://www.facebook.com"><FaFacebook /></a>
+                                    <a href="https://x.com"><FaTwitter /></a>
+                                    <a href="https://www.linkedin.com"><FaLinkedinIn /></a>
+                                    <a href="https://www.instagram.com"><FaInstagram /></a>
                                 </div>
                             </li>
                         </ul>
