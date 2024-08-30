@@ -1,0 +1,117 @@
+.contact_page {}
+
+.contact_page .contact_page_container {
+    width: 100%;
+    padding: 100px 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact_page .contact_page_container .sec_title_container span {
+    color: #8e8686;
+    display: block;
+    width: 100% !important;
+    margin-top: 50px;
+}
+
+.contact_page .contact_page_container .sec_title_container {
+    width: 50%;
+}
+
+.contact_us_hero {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact_us_hero img {
+    width: 99%;
+    border-radius: 5px;
+    height: 60vh;
+    object-fit: cover;
+
+}
+
+.contact_us_hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contact_page_container .info_card_container {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start !important;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contact_page_container .info_card {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 12px #dbd6d6;
+    border-radius: 10px;
+    gap: 30px;
+    height: 85px;
+    width: 250px;
+
+}
+
+.contact_page .map {
+    width: 81vw !important;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width:900px) {
+    .contact_page .contact_page_container {
+        flex-direction: column;
+    }
+
+    .contact_page .contact_page_container,
+    .info_card {
+        margin: 0 auto;
+    }
+
+    .contact_page .contact_page_container .sec_title_container {
+        width: 100%;
+    }
+
+    .contact_page .contact_page_container .sec_title_container span {
+        width: 100% !important
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contact_page .message_form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact_page .message_form div,
+    .contact_page .message_form div {
+        width: 100%;
+    }
+
+    .contact_page .message_form input,
+    .contact_page .message_form textarea {
+        width: 100%;
+    }
+
+
+}

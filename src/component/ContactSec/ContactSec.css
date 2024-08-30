@@ -35,7 +35,7 @@
     gap: 108px;
 }
 
-.map_form_container .info_card {
+.info_card {
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -50,17 +50,17 @@
 }
 
 
-.map_form_container .info_card img {
+.info_card img {
     width: 40px !important;
 }
 
-.map_form_container .info_card h4 {
+.info_card h4 {
     font-weight: 700;
     font-size: 16px;
     margin: 0px;
 }
 
-.map_form_container .info_card p {
+.info_card p {
     color: #8e8686;
     font-size: 14px;
     margin: 0px;

@@ -41,8 +41,8 @@
 
 }
 
-.best_deal_sec .best_title_container button:first-child {
-    background-color: #f35524;
+.button_active {
+    background-color: #f35524 !important;
 }
 
 .best_deal_sec .best_deal_container {

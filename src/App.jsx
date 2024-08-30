@@ -9,6 +9,9 @@ import PropertyCard from './component/PropertyCard/PropertyCard'
 import PropertySec from './component/PropertySec/PropertySec'
 import ContactSec from './component/ContactSec/ContactSec'
 import Footer from './component/Footer/Footer'
+import LandingPage from './pages/LandingPage/LandingPage'
+import { Route, Routes } from 'react-router-dom'
+import ContactUs from './pages/ContactUS/ContactUs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,12 +19,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <FeaturedSec />
-      <VideoNewSec />
-      <BestDealSec />
-      <PropertySec />
-      <ContactSec />
+      <Routes>
+        <Route path='/Task2_Villa' element={<LandingPage />} />
+        <Route path='/Task2_Villa/contact_us' element={<ContactUs />} />
+      </Routes>
       <Footer />
 
     </>

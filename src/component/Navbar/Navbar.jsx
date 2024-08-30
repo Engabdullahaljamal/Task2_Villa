@@ -6,6 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaCalendar } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 function Navbar() {
     const none = () => {
         const nav_bar_down_ul = document.querySelector('#navbarSupportedContent')
@@ -91,7 +92,7 @@ function Navbar() {
                     <a href="#">Home</a>
                     <a href="#Property">Property</a>
                     <a href="#Property_Details">Property Details</a>
-                    <a href="#Contact_Us">Contact US</a>
+                    <Link to="/Task2_Villa/contact_us">Contact US</Link>
                     <button> <div><FaCalendar /></div>  Schedule a visit</button>
                 </div>
             </div>
