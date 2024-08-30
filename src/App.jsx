@@ -20,8 +20,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/Task2_Villa' element={<LandingPage />} />
-        <Route path='/Task2_Villa/contact_us' element={<ContactUs />} />
+        <Route path='/Task3_Villa' element={<LandingPage />} />
+        <Route path='/Task3_Villa/contact_us' element={<ContactUs />} />
       </Routes>
       <Footer />
 
