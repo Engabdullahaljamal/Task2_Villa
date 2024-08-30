@@ -92,7 +92,7 @@ function Navbar() {
                     <a href="#">Home</a>
                     <a href="#Property">Property</a>
                     <a href="#Property_Details">Property Details</a>
-                    <Link to="/Task2_Villa/contact_us">Contact US</Link>
+                    <Link to="/Task3_Villa/contact_us">Contact US</Link>
                     <button> <div><FaCalendar /></div>  Schedule a visit</button>
                 </div>
             </div>
