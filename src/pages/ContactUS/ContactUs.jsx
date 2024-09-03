@@ -1,15 +1,12 @@
 import './ContactUs.css'
-import contact_hero from './../../assets/images/page-heading-bg.jpg'
 import phone_icon from './../../assets/images/phone-icon.png'
 import email_icon from './../../assets/images/email-icon.png'
 import MessageForm from '../../component/MessageForm/MessageForm'
+import PagesHero from '../../component/PagesHero/PagesHero'
 function ContactUs() {
     return (
         <div className='contact_page'>
-            <div className='contact_us_hero'>
-                <img src={contact_hero} alt="" />
-                <h2>CONTACT US</h2>
-            </div>
+            <PagesHero title='CONTACT US' />
             <div className='contact_page_container'>
                 <div className='sec_title_container'>
                     <p className='orange_title'> | CONTACT US</p>

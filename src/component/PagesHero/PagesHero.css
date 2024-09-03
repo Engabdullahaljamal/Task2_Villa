@@ -1,0 +1,27 @@
+
+.pages_hero {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pages_hero img {
+    width: 99%;
+    border-radius: 5px;
+    height: 60vh;
+    object-fit: cover;
+
+}
+
+.pages_hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}

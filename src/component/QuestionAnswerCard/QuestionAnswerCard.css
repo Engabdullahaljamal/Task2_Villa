@@ -1,0 +1,46 @@
+.best_card {
+    margin-top: 35px;
+    padding: 10px 20px;
+    width: 400px;
+    height: max-content;
+    background-color: #fafafa;
+    border-radius: 10px;
+
+}
+
+.show_answer {
+    display: block !important;
+}
+
+.best_card p {
+    color: black;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eaeaea;
+    cursor: pointer;
+    width: 100%;
+}
+
+.orange_question {
+    color: #f35524 !important;
+
+}
+
+.best_card li {
+    list-style: none;
+    display: none;
+    color: #1e1e1e;
+}
+
+
+
+.best_card span:first-child {
+    font-weight: 900;
+
+}
+
+.best_card span:nth-child(2) {
+    color: #3a75fd;
+}
+
+

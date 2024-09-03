@@ -1,5 +1,5 @@
 import './PropertySec.css'
-import property_img_1 from './../../assets/images/property-01.jpg'
+import property_img_1 from './../../assets/images/property-01.png'
 import property_img_2 from './../../assets/images/property-02.jpg'
 import property_img_3 from './../../assets/images/property-03.jpg'
 import property_img_4 from './../../assets/images/property-04.jpg'

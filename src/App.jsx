@@ -12,6 +12,8 @@ import Footer from './component/Footer/Footer'
 import LandingPage from './pages/LandingPage/LandingPage'
 import { Route, Routes } from 'react-router-dom'
 import ContactUs from './pages/ContactUS/ContactUs'
+import Property from './pages/Property/Property'
+import SingleProperty from './pages/SingleProperty/SingleProperty'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,8 @@ function App() {
       <Routes>
         <Route path='/Task3_Villa' element={<LandingPage />} />
         <Route path='/Task3_Villa/contact_us' element={<ContactUs />} />
+        <Route path='/Task3_Villa/Property' element={<Property />} />
+        <Route path='/Task3_Villa/Single_Property' element={<SingleProperty />} />
       </Routes>
       <Footer />
 

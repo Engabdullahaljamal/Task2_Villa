@@ -89,9 +89,9 @@ function Navbar() {
             <div className='navbar_two'>
                 <h2>VILLA</h2>
                 <div className='flex'>
-                    <a href="#">Home</a>
-                    <a href="#Property">Property</a>
-                    <a href="#Property_Details">Property Details</a>
+                    <Link to='/Task3_Villa'>Home</Link>
+                    <Link to="/Task3_Villa/Property">Property</Link>
+                    <Link to='/Task3_Villa/Single_Property'>Property Details</Link>
                     <Link to="/Task3_Villa/contact_us">Contact US</Link>
                     <button> <div><FaCalendar /></div>  Schedule a visit</button>
                 </div>

@@ -3,6 +3,7 @@
 .contact_sec {
     padding: 100px 0px;
     padding-bottom: 400px;
+    margin-bottom: 100px;
 
 }
 
@@ -92,8 +93,8 @@
         top: 110%;
     }
 
-    .footer {
-        margin-top: 900px !important;
+    .contact_sec {
+        margin-bottom: 900px;
     }
 }
 
@@ -115,10 +116,9 @@
         gap: 50px;
     }
 
-    .footer {
-        margin-top: 1000px !important;
+    .contact_sec {
+        margin-bottom: 1000px;
     }
-
 }
 
 @media screen and (max-width:500px) {
@@ -131,6 +131,7 @@
     .map_form_container .message_form textarea {
         width: 100%;
     }
+
 
 
 }
