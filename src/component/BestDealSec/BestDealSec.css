@@ -126,8 +126,9 @@
 
 @media screen and (max-width:500px) {
 
-   .button_container {
+    .button_container {
         gap: 8px;
+        flex-wrap: wrap;
     }
 
     .button_container button {
