@@ -26,17 +26,17 @@ function Navbar() {
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item ">
-                                <a className="nav-link active text-white" aria-current="page" href="#" onClick={() => { none() }}>Home</a>
+                                <Link className="nav-link active text-white" aria-current="page"  to='/Task3_Villa'  onClick={() => { none() }}>Home</Link>
                             </li>
                             <li className="nav-item" >
-                                <a className="nav-link text-white" href="#Property" onClick={() => { none() }}>Property</a>
+                                <Link className="nav-link text-white" to="/Task3_Villa/Property" onClick={() => { none() }}>Property</Link>
                             </li>
                             <li className="nav-item" >
-                                <a className="nav-link text-white" href="#Property_Details" onClick={() => { none() }}>Property Details</a>
+                                <Link className="nav-link text-white" to='/Task3_Villa/Single_Property' onClick={() => { none() }}>Property Details</Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link  text-white" aria-disabled="true" href='#Contact_Us' onClick={() => { none() }}>Contact US</a>
+                                <Link className="nav-link  text-white" aria-disabled="true" to="/Task3_Villa/contact_us" onClick={() => { none() }}>Contact US</Link>
                             </li>
 
                             <li className="nav-item but" onClick={() => { none() }}>
