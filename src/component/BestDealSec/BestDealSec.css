@@ -22,14 +22,15 @@
     max-width: 320px;
 }
 
-.best_deal_sec .button_container {
+.button_container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
 
-.best_deal_sec button {
+.best_deal_sec button,
+.filter_button {
     padding: 10px 18px;
     border: none;
     border-radius: 5px;
@@ -125,11 +126,11 @@
 
 @media screen and (max-width:500px) {
 
-    .best_deal_sec .button_container {
+   .button_container {
         gap: 8px;
     }
 
-    .best_deal_sec .button_container button {
+    .button_container button {
         font-size: 14px;
     }
 
@@ -147,13 +148,13 @@
         width: 95vw;
     }
 
-    .best_deal_sec .button_container {
+    .button_container {
         flex-direction: column;
         gap: 20px;
 
     }
 
-    .best_deal_sec .button_container button {
+    .button_container button {
         min-width: 120px !important;
     }
 

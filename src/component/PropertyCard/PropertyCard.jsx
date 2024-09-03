@@ -3,7 +3,7 @@ import './PropertyCard.css'
 
 function PropertyCard({ house_details }) {
     return (
-        <div className='property_card'>
+        <div className='property_card' >
             <img src={house_details.image} alt="" />
             <div className='price_container'>
                 <p>{house_details.title}</p>
@@ -24,6 +24,7 @@ function PropertyCard({ house_details }) {
             </div>
             <button>Schedule a Visit</button>
         </div>
+
     )
 }
 
