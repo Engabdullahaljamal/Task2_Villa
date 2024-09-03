@@ -79,6 +79,10 @@
         left: -25px;
         bottom: -20px;
     }
+    .f_i_c {
+        height: max-content;
+    }
+
 
     .featured_icon img {
         width: 48px;
