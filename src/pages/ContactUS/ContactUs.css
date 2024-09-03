@@ -76,6 +76,7 @@
     .contact_page .message_form {
         width: 95%;
         padding: 20px;
+        gap: 15px;
     }
 
     .contact_page .message_form div,
