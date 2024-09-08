@@ -5,7 +5,9 @@
     padding-bottom: 400px;
     margin-bottom: 100px;
 
+
 }
+
 
 .contact_sec .video_img_container .sec_title_container .sec_title {
     max-width: 340px;
@@ -14,8 +16,10 @@
 
 .map_form_container {
     position: absolute;
-    left: 10%;
+    width: max-content;
+    left: 50%;
     top: 60%;
+    transform: translateX(-50%);
     border-radius: 30px;
     display: flex;
     flex-wrap: wrap;
